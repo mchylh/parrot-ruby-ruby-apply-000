@@ -6,5 +6,3 @@ def parrot(phrase = "Squawk!")
   #should return the default phrase, "Squawk!" when called without any arguments' do
   return phrase
 end
-
-
