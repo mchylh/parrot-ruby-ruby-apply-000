@@ -2,9 +2,9 @@
 # returns the phrase
 def parrot(phrase = "Squawk!")
   #should output "Squawk!" to the terminal when called without any arguments
-  puts "#{parrot}"
+  puts "#{phrase}"
   #should return the default phrase, "Squawk!" when called without any arguments' do
-  return parrot
+  return phrase
 end
 
 def parrot(phrase = "Pretty bird!")
