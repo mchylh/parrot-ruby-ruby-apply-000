@@ -10,10 +10,8 @@ end
 
 def parrot(phrase = "Pretty bird!")
   puts phase
-end
-
-def parrot(phrase)
-  phrase = "Pretty bird!"
+  end
 end
   return phrase
+  end
 end
