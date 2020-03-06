@@ -8,11 +8,11 @@ def parrot
     phrase = "Squawk!"
     return phrase
   end
-  #should output the given phrase when called with an argument' do
-    puts "Pretty bird!"
-  end
-  #should return the given phrase when called with an argument' do
-    phrase = "Pretty bird!"
-    return phrase
-  end
+end
+
+def parrot(phrase = "Pretty bird!")
+  #should output the given phrase when called with an argument
+  puts "#{phrase}"
+  #should return the given phrase when called with an argument
+  return phrase
 end
