@@ -6,8 +6,6 @@ def parrot
   #should return the default phrase, "Squawk!" when called without any arguments' do
   phrase = "Squawk!"
   return phrase
-end
-
 def parrot(phrase = "Pretty bird!")
   #should output the given phrase when called with an argument
   puts "#{phrase}"
