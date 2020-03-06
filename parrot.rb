@@ -1,11 +1,10 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-def parrot
+def parrot(phrase = "Squawk!")
   #should output "Squawk!" to the terminal when called without any arguments
-  puts "Squawk!"
+  puts "#{parrot}"
   #should return the default phrase, "Squawk!" when called without any arguments' do
-  phrase = "Squawk!"
-  return phrase
+  return parrot
 end
 
 def parrot(phrase = "Pretty bird!")
