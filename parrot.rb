@@ -9,7 +9,7 @@ def parrot
   end
     phrase = "Pretty bird!"
     puts parrot
-  end  
+  end
     return phrase
   end
 end
